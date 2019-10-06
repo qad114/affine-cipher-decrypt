@@ -32,7 +32,7 @@ with open("enable1.txt", 'r') as f:
 	wordlist = set([word.strip() for word in f])
 
 count= list() # for finding most plausible dcryption
-for a in [3, 5, 7, 11, 15, 17, 19, 21]:
+for a in [3, 5, 7, 11, 15, 17, 19, 21, 23, 25]:
 	for b in range(0, 101):
 		encrypted_str = sys.argv[1]
 		# perform decrypt function on each letter to get decrypted string
